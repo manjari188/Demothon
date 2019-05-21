@@ -1,0 +1,16 @@
+.caption{
+margin-top: 18%;
+z-index: 100;
+margin-left: 41%;
+color:white;
+font-family: Comic Sans MS;
+
+}
+
+.card-img-top{
+    height: 185px;
+}
+
+.card-columns{
+    margin-top: 23%;
+}

@@ -1,0 +1,41 @@
+<div class="header">
+    <a href="#default" class="logo"></a>
+    <div class="header-right">
+      <a (click)="onClickSwipe()" class="active" style="margin-right: 23px;">Swiping</a>
+      <a (click)="onClickIdentify()" class="active">Identify</a>
+    </div>
+  </div>
+  <div id="mapNode"></div>
+  <div id="myModal" class="modalswipe" *ngIf="showModal">
+
+    <!-- Modal content -->
+    <div class="modal-contentswipe">
+      <span class="close" (click)="showModal=!showModal">&times;</span>
+      <div>
+     First Date:<input id="dateStart" type="date">
+    </div>
+    <div>
+        Second Date:<input id="dateStart" type="date">
+       </div>
+       <button (click)="showSlidr()" type="button" class="btn btn-warning">Show</button>
+    </div>
+  
+  </div>
+<!-- <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2 px-1 bg-danger" style="position: absolute;
+        z-index: 10000;height: 100%">
+            <div class="py-2 sticky-top flex-grow-1">
+                <div class="nav flex-sm-column">
+                    <a href="" class="nav-link d-none d-sm-inline">Sidebar</a>
+                    <a href="" class="nav-link"><img style="height: 24px;" src="./assets/img/clock.svg">Swiping</a>
+                    <a href="" class="nav-link">Link</a>
+                    <a href="" class="nav-link">Link</a>
+                    <a href="" class="nav-link">Link</a>
+                    <a href="" class="nav-link">Link</a>
+                </div>
+            </div>
+        </div>
+        <div class="col" id="main"><div id="mapNode"></div></div>
+        </div>
+</div> -->
